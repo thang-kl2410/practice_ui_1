@@ -179,7 +179,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     )
                 )
             ),
-            BottomWidget(height: MediaQuery.of(context).size.height*0.2,)
+            const BottomWidget(height: 190,)
           ],
         ),
       )

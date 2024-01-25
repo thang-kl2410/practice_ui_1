@@ -3,9 +3,14 @@ import 'package:flutter/material.dart';
 import '../../data/dummy.dart';
 import 'feature_item.dart';
 
-class StartFreeWidget extends StatelessWidget {
-  StartFreeWidget({super.key});
+class StartFreeWidget extends StatefulWidget {
+  const StartFreeWidget({super.key});
 
+  @override
+  State<StartFreeWidget> createState() => _StartFreeWidgetState();
+}
+
+class _StartFreeWidgetState extends State<StartFreeWidget> {
   @override
   Widget build(BuildContext context) {
     return Stack(

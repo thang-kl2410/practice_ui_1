@@ -71,7 +71,7 @@ class FooterWidget extends StatelessWidget {
 
               },
               child: const  Text(
-                'Privacy Policy - Terms of Service',
+                'Privacy Policy • Terms of Service',
                 style: TextStyle(
                     color: Colors.black,
                     fontSize: 16,
